@@ -463,9 +463,6 @@ void CIPConfigureDlg::OnIPAddressChanged()
 
 void CIPConfigureDlg::OnTimer(UINT_PTR nIDEvent)
 {
-	UINT_PTR timerID;
-	UINT interval;
-
 	// TODO: ここにメッセージ ハンドラー コードを追加するか、既定の処理を呼び出します。
 	if (ID_CLICKTIMER == nIDEvent)
 	{
