@@ -13,7 +13,7 @@
 
 #define WINDOWSIZE_EXPAND               300UL
 #define WINDOWSIZE_COLLAPSE             10UL                  
-#define WINDOWSIZE_RATE                 0.1
+#define WINDOWSIZE_RATE                 0.2
 
 // CIPConfigureDlg ダイアログ
 class CIPConfigureDlg : public CDialogEx
