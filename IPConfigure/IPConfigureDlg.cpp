@@ -269,7 +269,7 @@ BOOL CIPConfigureDlg::NotifyIcon(DWORD dwMessage, HICON hIcon, UINT nStringResou
 	return NotifyIcon(dwMessage, hIcon, msg);
 }
 
-LRESULT CIPConfigureDlg::OnTrayNotify(UINT wParam, LONG lParam)
+LRESULT CIPConfigureDlg::OnTrayNotify(WPARAM wParam, LPARAM lParam)
 {
 	UINT uiIconID = (UINT)wParam;
 	UINT uiMouseMsg = (UINT)lParam;

@@ -56,7 +56,7 @@ public:
 	afx_msg void OnDestroy();
 	BOOL NotifyIcon(DWORD dwMessage, HICON hIcon, LPCTSTR pszTip = NULL);
 	BOOL NotifyIcon(DWORD dwMessage, HICON hIcon, UINT nStringResource);
-	LRESULT OnTrayNotify(UINT wParam, LONG lParam);
+	LRESULT OnTrayNotify(WPARAM wParam, LPARAM lParam);
 	afx_msg HBRUSH OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor);
 	afx_msg void OnBnClickedOk();
 	void UpdateIPAddress();
